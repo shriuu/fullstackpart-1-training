@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+       <title>DASHBOARD PAGE</title> 
+    </head>
+    <body>
+        <nav style="color:rgb(4, 4, 4);background-color: rgb(116, 241, 199);padding: 10px;"class="navbar navbar-default">
+            <div class="'container-fluid">
+                <div class="navbar-header">
+                   <a class="navbar brand"href="">FULL STACK DEMO</a> 
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="">Home</a></li>
+                    <li class="active"><a href="/dashboard">dashboard</a></li>
+                    <li><a href="/insertnotes">insert notes</a></li>
+                    <li><a href="/viewnotes">view notes</a></li>
+                    <li class="active"><a href="/logout">logout</a></li>
+                  
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <marquee><h1>welcome to the notes manager</h1></marquee>
+            <h3>hello {{owner}}</h3>
+        </div>
+
+    </body>
+</html>
